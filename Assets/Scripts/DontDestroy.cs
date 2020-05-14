@@ -12,14 +12,14 @@ public class DontDestroy : MonoBehaviour
 
     void Awake()
     {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag("music");
+        int numMusicPlayers = FindObjectsOfType<DontDestroy>().Length;
 
-        if (objs.Length > 1)
+        if (numMusicPlayers > 1)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
 
-        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
