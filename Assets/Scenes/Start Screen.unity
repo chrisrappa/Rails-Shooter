@@ -259,21 +259,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background Music
       objectReference: {fileID: 0}
-    - target: {fileID: 7840639885482125593, guid: 495e7f873d7bb724e9faf30a6877e2a1,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 7840639885482125593, guid: 495e7f873d7bb724e9faf30a6877e2a1,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7840639885482125593, guid: 495e7f873d7bb724e9faf30a6877e2a1,
-        type: 3}
-      propertyPath: m_Pitch
-      value: 0.6
-      objectReference: {fileID: 0}
     - target: {fileID: 7840639885482125595, guid: 495e7f873d7bb724e9faf30a6877e2a1,
         type: 3}
       propertyPath: m_LocalPosition.x
