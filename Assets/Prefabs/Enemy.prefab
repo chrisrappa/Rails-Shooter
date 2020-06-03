@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2951512416908804280}
   - component: {fileID: 1665138929}
   m_Layer: 0
-  m_Name: Large Enemy
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,3 +93,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathFX: {fileID: 6917624861547820739, guid: ff96566162bd71e428c180fe13082337, type: 3}
+  parent: {fileID: 0}
+  scorePerHit: 12
+  hits: 10
