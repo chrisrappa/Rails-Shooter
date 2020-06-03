@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2951512416908804280}
   - component: {fileID: 1665138929}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Falcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2928449732817927818}
   m_LocalRotation: {x: -0.5793311, y: 0, z: 0, w: 0.8150923}
-  m_LocalPosition: {x: 213.9, y: -51.6, z: 219.6}
+  m_LocalPosition: {x: -64, y: 183, z: -287}
   m_LocalScale: {x: 36.353043, y: 53.15514, z: 30.234735}
   m_Children: []
   m_Father: {fileID: 0}
