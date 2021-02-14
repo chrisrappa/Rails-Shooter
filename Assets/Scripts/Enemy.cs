@@ -43,6 +43,7 @@ public class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
+        print("enemy is fuckin dead yo");
         GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
         fx.transform.parent = parent;
         Destroy(gameObject);
